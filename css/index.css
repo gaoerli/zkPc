@@ -1,0 +1,92 @@
+/** 城管map start**/
+.cg-map {
+  position: relative;
+  min-width: 1080px;
+  height: 100vh;
+  font-family: "Microsoft Yahei", "微软雅黑", Arial, "Helvetica",
+    "Microsoft YaHei New", "STXihei", "华文细黑", "SimHei", "黑体", sans-serif;
+  font-size: 16px;
+}
+
+.map-bg {
+  width: 100%;
+  height: 100%;
+}
+
+/*地图标题*/
+.BMap_bubble_title {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid gray;
+  background-color: #0066b3;
+}
+
+/* 显示部分 */
+.box-item {
+  position: absolute;
+  width: auto !important;
+  top: 30px;
+  left: 30px;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #000 !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  border: none !important;
+}
+
+.box-item .item-img {
+  width: 30px;
+}
+
+.box-item td {
+  border-width: 0 0 2px !important;
+  border-color: #e6f1ff;
+  padding: 5px 2px !important;
+}
+
+/* 消息内容 */
+.BMap_bubble_content {
+  background-color: white;
+  padding: 0.2em 0.5em;
+}
+
+.txt {
+  font-size: 14px;
+  color: #747474;
+  margin-bottom: 0.5em;
+}
+
+.txt .txt-left {
+  display: inline-block;
+  min-width: 5em;
+  text-align: right;
+  color: #007cc4;
+  padding-right: 1em;
+}
+
+.txt-btn {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: right;
+}
+
+.txt-btn .txt-left {
+  display: inline-block;
+  padding: 0.2em 1em;
+  color: inherit;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #007cc4;
+}
+
+.txt-btn .txt-left:hover,
+.txt-btn .txt-left:focus {
+  color: inherit;
+}
+
+/** 城管map end**/
