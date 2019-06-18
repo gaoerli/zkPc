@@ -13,29 +13,100 @@
     .zk .zk-box {
       width: 722px;
       height: 361px;
-      background: #f60;
-      box-shadow: 0px 6px 19px 2px rgba(224, 224, 224, 0.35);
+      background: #fff;
+      box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.5);
       border-radius: 10px;
       box-sizing: border-box;
-      
+      margin-top: -40px;
     }
 
-    .zk .zk-box .items {
-      text-align: center;
-      background: #000;
 
-    }
 
     .zk .zk-box .items input {
       width: 430px;
       height: 44px;
-      
+      background-color: #ebebeb;
+      border-radius: 10px;
+      font-family: SimHei;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #b1b1b1;
+      padding-left: 54px;
+      margin-left: 35px;
     }
-    .zk .zk-box .items input.input-one{
+
+    .zk .zk-box .items input.input-one {
       margin-top: 60px;
+      background: #ebebeb url('http://localhost/images/ticket.png') no-repeat left center;
+      background-size: 27px 25px;
+      background-position: 11px;
     }
-    .zk .zk-box .items input.input-two{
-    margin-top: 23px;
+
+
+    .zk .zk-box .items input.input-two {
+      margin-top: 23px;
+      margin-bottom: 21px;
+      background: #ebebeb url('http://localhost/images/user.png') no-repeat left center;
+      background-size: 27px 25px;
+      background-position: 11px;
+    }
+
+    .zk .zk-box .items div.code-content {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding-left: 50px;
+    }
+
+    .zk .zk-box .items input.input-code {
+      width: 211px;
+      height: 43px;
+      border-radius: 10px;
+      background: #fff;
+      border: solid 1px #ebebeb;
+      margin-right: 10px;
+      padding-left: 35px;
+    }
+
+    .zk .zk-box .items span.get-code {
+      width: 107px;
+      height: 41px;
+
+      background: #ebebeb;
+    }
+
+    .zk .zk-box .items button.search-btn {
+      width: 432px;
+      height: 48px;
+      background-color: #02d89e;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    .zk .text-p {
+
+      height: 14px;
+      font-family: SimHei;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #1751ba;
+      text-align: center;
+      margin-top: 72px;
+    }
+
+    button[disabled="disabled"] {
+      background-color: #ccc !important;
+
+    }
+
+    button[disabled="disabled"]:hover {
+      opacity: 1;
     }
   </style>
 </head>
@@ -49,27 +120,39 @@
         <div class="layui-input-block">
           <input type="text" placeholder="请输入准考证号" autocomplete="off" class="layui-input input-one">
         </div>
+
         <div class="layui-input-block">
           <input type="text" placeholder="请输入姓名" autocomplete="off" class="layui-input input-two">
         </div>
+
+        <div class="layui-input-block code-content">
+          <input type="text" placeholder="请输入图片动态验证码" autocomplete="off" class="layui-input input-code">
+          <span class="get-code">验证码</span>
+        </div>
+
+
+
+        <div class="items" style="text-align: center;">
+          <button class="layui-btn layui-btn-lg search-btn" disabled="disabled">查询</button>
+        </div>
+
+
+
+
       </div>
     </div>
 
+    <p class="text-p">操作时请正确输入姓名、准考证号和验证码信息！</p>
   </div>
 
   <script src="http://localhost/js/lib/jquery/jquery-3.3.1.min.js"></script>
-  <script src="http://localhost/js/lib/vue/js/vue.js"></script>
-
+  <script src="http://localhost/js/lib/layui/layui.js"></script>
   <script>
-    new Vue({
-      el: "#app",
-      data() {
-        return {
-          msg: '标题',
-        }
-      }
+    $(".search-btn").on("click", function () {
+      alert(1);
     })
   </script>
+
 </body>
 
 </html>
