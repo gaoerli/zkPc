@@ -1,0 +1,103 @@
+.zk .zk-box-login {
+  width: 722px;
+  height: 361px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: -40px;
+}
+
+.zk .zk-box .items input {
+  width: 430px;
+  height: 44px;
+  background-color: #ebebeb;
+  border-radius: 5px;
+  font-family: SimHei;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #b1b1b1;
+  padding-left: 54px;
+  margin-left: 35px;
+}
+
+.zk .zk-box .items input.input-one {
+  margin-top: 60px;
+  background: #ebebeb url("http://localhost/images/ticket.png") no-repeat left
+    center;
+  /* background-size: 27px 25px; */
+  background-position: 11px;
+}
+
+.zk .zk-box .items input.input-two {
+  margin-top: 23px;
+  margin-bottom: 21px;
+  background: #ebebeb url("http://localhost/images/user.png") no-repeat left
+    center;
+  /* background-size: 27px 25px; */
+  background-position: 14px;
+}
+
+.zk .zk-box .items div.code-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.zk .zk-box .items input.input-code {
+  width: 211px;
+  height: 43px;
+  border-radius: 5px;
+  background: #fff;
+  border: solid 1px #ebebeb;
+  margin-right: 10px;
+  padding-left: 35px;
+}
+
+.zk .zk-box .items span.get-code {
+  width: 107px;
+  height: 41px;
+
+  background: #ebebeb;
+}
+
+.zk .zk-box .items button.search-btn {
+  width: 432px;
+  height: 48px;
+  background-color: #02d89e;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.zk .text-p {
+  height: 14px;
+  margin: 6em 0 4em;
+  font-family: SimHei;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #1751ba;
+  text-align: center;
+}
+
+.zk button[disabled="disabled"] {
+  background-color: #ccc !important;
+}
+
+.zk button[disabled="disabled"]:hover {
+  opacity: 1;
+}

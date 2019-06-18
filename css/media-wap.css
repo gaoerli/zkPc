@@ -1,0 +1,90 @@
+/* 适配手机端 */
+@media (max-width: 730px) {
+  /* 成绩详情页面 start */
+  .zk-bg {
+    width: 100%;
+    height: 160px;
+    background: url(http://localhost/images/wap-banner.png) no-repeat;
+    background-position: 50% 0;
+    background-size: 100% 100%;
+  }
+
+  .zk .zk-box {
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .zk .tab-2,
+  .zk .tab-4 {
+    width: 100%;
+  }
+
+  .tab-4 .sup,
+  .tab-2 .sup {
+    display: inline-block;
+    width: 5em;
+  }
+
+  .zk-msg {
+    font-size: 12px;
+  }
+
+  .zk-return {
+    display: block;
+    margin: 50px auto 55px !important;
+  }
+
+  /* 成绩详情页面 end */
+
+  /* 登录页 start */
+  .zk .zk-box-login {
+    margin-top: 0;
+    width: 92%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .zk .zk-box .items input {
+    margin: 0 auto;
+    width: 92%;
+  }
+
+  .layui-input-block {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .zk .zk-box .items input {
+    width: 100%;
+  }
+
+  .zk .zk-box .items div.code-content {
+    padding-left: 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .zk .zk-box .items input.input-code {
+    width: 50%;
+    margin-left: 0;
+    padding-left: 1em;
+  }
+
+  .zk .zk-box .items span.get-code {
+    width: 45%;
+    display: inline-block;
+  }
+
+  .zk .zk-box .items button.search-btn {
+    width: 100%;
+  }
+
+  .zk .text-p {
+    font-size: 12px;
+    margin-bottom: 4em;
+  }
+
+  /* 登录页 end */
+}

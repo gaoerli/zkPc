@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>成绩查询</title>
+    <link
+      rel="stylesheet"
+      href="http://localhost/js/lib/layui/css/layui.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="http://localhost/css/default.css" />
+    <link rel="stylesheet" href="http://localhost/css/score-detail.css" />
+    <link rel="stylesheet" href="http://localhost/css/login.css" />
+    <link rel="stylesheet" href="http://localhost/css/media-wap.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <div class="zk" id="app">
+      <div class="zk-bg"></div>
+      <div class="zk-box layui-form zk-box-login">
+        <div class="layui-form-item items">
+          <div class="layui-input-block">
+            <input
+              type="text"
+              placeholder="请输入准考证号"
+              autocomplete="off"
+              class="layui-input input-one"
+            />
+          </div>
+
+          <div class="layui-input-block">
+            <input
+              type="text"
+              placeholder="请输入姓名"
+              autocomplete="off"
+              class="layui-input input-two"
+            />
+          </div>
+
+          <div class="layui-input-block code-content">
+            <input
+              type="text"
+              placeholder="请输入图片动态验证码"
+              autocomplete="off"
+              class="layui-input input-code"
+            />
+            <span class="get-code">验证码</span>
+          </div>
+
+          <div class="items" style="text-align: center;">
+            <button
+              class="layui-btn layui-btn-lg search-btn"
+              disabled="disabled"
+            >
+              查询
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-p">
+        <span style="vertical-align: middle">*</span
+        >&nbsp;操作时请正确输入姓名、准考证号和验证码信息！
+      </p>
+
+      <p class="zk-msg">技术支持：九江市教育信息中心</p>
+    </div>
+
+    <script src="http://localhost/js/lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="http://localhost/js/lib/layui/layui.js"></script>
+    <script>
+      $(".search-btn").on("click", function() {
+        alert(1);
+      });
+    </script>
+  </body>
+</html>

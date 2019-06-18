@@ -1,0 +1,129 @@
+/* 中考成绩查询 */
+.zk {
+  position: relative;
+  min-height: 100vh;
+  font-family: "Microsoft Yahei", "微软雅黑", Arial, "Helvetica",
+    "Microsoft YaHei New", "STXihei", "华文细黑", "SimHei", "黑体", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* banner */
+.zk-bg {
+  width: 100%;
+  height: 340px;
+  background: url(http://localhost/images/banner.png) no-repeat;
+  background-position: 50% 0;
+  /* overflow: hidden; */
+}
+
+/* 内容盒子 */
+.zk-box {
+  width: 788px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+/* 2019年中考成绩 */
+.box-tit {
+  margin: 0 0 16px;
+  text-align: center;
+  font-size: 26px;
+  color: #727272;
+}
+
+/* 个人信息 */
+.box-tab {
+  border-bottom: 1px solid #02d89e;
+}
+
+.tab-2,
+.tab-4 {
+  display: inline-block;
+  width: 20%;
+  padding: 0.5em 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #727272;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.tab-4 {
+  width: 38%;
+}
+
+.tab-4 .sup,
+.tab-2 .sup {
+  padding-right: 4px;
+  font-size: 16px;
+  color: #02d89e;
+}
+
+/* 成绩信息 */
+.box-container {
+  width: 100%;
+  padding: 0.5em 0;
+  margin-top: 12px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 返回按钮 */
+.zk-return {
+  display: block;
+  margin: 50px auto 40px !important;
+}
+
+.layui-btn {
+  border-radius: 5px;
+  background-color: #02d89e;
+}
+
+.layui-btn-fluid {
+  width: 31px;
+}
+
+/* 分数按钮 */
+.zk-btn {
+  display: block;
+  width: 100%;
+  margin: 1em auto 0;
+}
+
+/* 版权信息 */
+.zk-msg {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: #d0d0d0;
+}
+
+/* 缺省页面 */
+.zk-box-2 {
+  width: 233px;
+  margin: 80px auto 0;
+  overflow: hidden;
+}
+
+.zk-box-2-bg {
+  height: 158px;
+  background: url(http://localhost/images/banner-2.png) no-repeat;
+  margin-bottom: 26px;
+}
+
+.zk-msg-2 {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: #d0d0d0;
+}
